@@ -30,7 +30,7 @@ p{
 .b1{
     background-color:#1C5CC9 ;
 }
-.sym{
+.sym,li,h4{
     padding: 5px;
 }
 .feature{
@@ -73,21 +73,28 @@ h1{
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: auto;
+    margin-bottom: 1rem;
 }
 .ul1{
     list-style: none;
 }
 
 
-img{
+.pic1{
     border-radius: 50%;
+    margin: 3rem 0px;
+    height: 25vh;
 }
 .banda{
     border-radius: 50%;
     height: 10vh;
-    width: 9vw;
+}
+.fb{
+    font-size: 35px;
+   text-align: center;
+    
 }
 
 
